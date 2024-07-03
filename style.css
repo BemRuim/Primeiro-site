@@ -1,0 +1,1078 @@
+@import url('https://ionic.io/ionicons');
+
+/* BOSSTRAP */
+
+/* Bost da img */
+.container-bosst{
+    background-color: none;
+}
+.container-bosst img{
+    width: 100px;
+    height: auto;
+}
+/* nav bar */
+.container-fluid a{
+    color: white;
+    font-size: 25px;
+}
+/* fazer a tag home sumir */
+#home{
+    display: none;
+}
+
+/* BOST modal */
+.modal{
+    height: 100%;
+}
+
+/* SITE */
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.fundo-de-cima{  
+    background: url('img/header.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+.cor{
+    background-color: rgba(31, 34, 41, 0.6);
+    padding-bottom: 50px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+.header nav ul li{
+    display: inline-block;
+   
+}
+
+.header nav ul li a{
+    margin-right: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+header nav ul li a:hover{
+    border-bottom: 2px solid #ff914D;
+}
+
+header nav{
+    margin-right: 80px;
+}
+header nav a{
+    text-decoration: none;
+
+}
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+.a1{
+    font-size: 15px;
+    border: 2px solid #3f51b5;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #3f51b5;
+    color: white;
+}
+   
+.a1:hover{
+    background-color: #6d75a3;
+    color: black;
+    border-color: black;
+}
+   
+.a2{
+    color: white;
+   font-size: 25px;
+    border: 2px solid #ff914D;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #ff914D;
+} 
+.a2:hover{
+    background-color: #e67b38;
+    color: black;
+    border-color: black;
+}
+section h1{
+    font-size: 60px;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 60px;
+}
+
+.p1{
+    margin-left: 60px;
+    width: 50%;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.embarcacao{
+    display: flex;
+   
+    background-color: white;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 60px;
+    border-radius: 40px 40px 0 0;
+    padding: 20px;
+    margin-top: 80px;
+    height: 30px;
+}
+
+.embarcacao p{
+     font-weight: bold;
+    font-size: 25px;
+    color: #f0955d;
+}
+
+.embarcacao p:hover{
+    border-bottom: 2px solid #f0955d;
+}
+
+.localizacao{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    background-color: white;
+    color: black;
+    width: 80%;
+    padding: 20px 50px;
+    border-radius: 0px 15px 15px 15px;
+    height: 150px;
+}
+
+.localizacao div{
+    gap: 30px;
+}
+
+.localizacao div p{
+    font-size: 20px;
+    margin: 20px;
+}
+.localizacao button{
+   height: 50px;
+    margin-left: 30px;
+    align-self: center;
+    padding:  5px 15px;
+}
+
+.selecione{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+
+main{
+    padding-top: 100px;
+}
+.destino{
+    display: flex;
+    
+}
+.destino h2{
+    font-size: 50px;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.melhores{
+    margin-left: 60px;
+    margin-bottom: 100px;
+    width: 50%;
+    font-size: 25px;
+    border-left: 3px solid #ff914D;
+    padding-left: 30px;
+}
+
+.destino h3{
+    color: #ff914D;
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+.paises{
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.paises p{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid white;
+}
+
+.paises p:hover{
+   border-bottom-color: #ff914D;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+   gap: 30px;
+   align-items: end;
+   flex-wrap: wrap;
+}
+
+.imagem img{
+    height: 219px;
+    width: 289px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.comentario{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.comentario h2 , .categoria h2{
+    text-align: center;
+}
+section h2{
+    font-size: 60px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.cliente{
+    margin-top: 30px;
+    background-color: #e6e6e6e6;
+    width: 300px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.cliente img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: left;
+}
+.cliente p:nth-child(2){
+    font-size: 30px;
+    color: black;
+   
+}
+.cliente p{
+    margin: 10px;
+    color: #979696;
+    font-size: 20px;
+}
+
+.like{
+    font-size: 40px;
+}
+.estrela{
+  color: yellow;
+  font-size: 40px;
+
+}
+
+.categoria h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.dentro-do-carossel h5{
+    font-size: 50px;
+    color: white;
+}
+.dentro-do-carossel p{
+    color: wheat;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+}
+                          
+.parques{
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 100px;
+   flex-wrap: wrap;
+}
+.parques p{
+    font-size: 40px;
+   font-weight: bold;
+   color: #757575;
+   padding: 10px;
+}
+.parques p:hover{
+    color: white;
+    background-color: #ff914D;
+    border-radius: 15px;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+article button{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.carousel-caption h5{
+    color: black;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-size: 30px;
+    
+}
+
+footer{
+    background-color: #ff914D;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.redes p:nth-child(1){
+    font-size: 20px;
+    text-align: center;
+}
+
+.redes div{
+    display: flex;
+    justify-content: stretch;
+   flex-wrap: wrap;
+    
+}
+
+.redes img{
+    width: 80px;
+    margin-left: 15px;
+}
+
+.redes p{
+    font-size: 15px;
+}
+.redes  ion-icon{
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+/* Perfil do usuario */
+
+/* PARTE DA ESUQERDA */
+.pg {  
+    background: url('img/header.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.icone {
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+.separar {
+    display: flex;
+}
+
+/* CORRECAO */
+
+
+.sidebar {
+    background-color: #D9D9D9;
+    padding: 30px 60px;
+    height: 1000px;
+    z-index: 1000;
+    transition: transform 0.5s;
+    transform: translateX(0);
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 2000;
+    display: none; 
+}
+
+
+aside ion-icon {
+    font-size: 150px;
+   margin-right: 100px;
+}
+
+
+
+aside p {
+    text-align: start;
+    color: #454545;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+aside p:nth-child(2) {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+aside div p {
+    color: #454545;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+aside p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.borda {
+    background-color: #757575;
+    padding: 1px;
+}
+
+/* parte da direita do site */
+
+.todos-formulario {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.todos-formulario h2 {
+    font-size: 38px;
+    margin-left: 40px;
+}
+
+.tudo-praia {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.praia {
+    width: 40%;
+    margin: 0 0 20px 20px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    height: auto;
+}
+
+.praia p:nth-child(1) {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.praia img {
+    margin-bottom: 10px;
+    padding: 10px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.grande {
+    padding: 20px;
+}
+
+.grande p {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.grande p:nth-child(2) {
+    color: #757575;
+    font-weight: bold;
+}
+
+.grande p:nth-child(4) {
+    color: black;
+    font-weight: bold;
+}
+
+.grande p span {
+    font-size: 30px;
+}
+
+.grande ion-icon {
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+
+.formulario {
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.formulario form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario input {
+    background-color: #EBEBEB;
+}
+
+.dentro-do-formulario {
+    margin: 20px;
+}
+
+.dentro-do-formulario label {
+    font-size: 20px;
+    text-align: center;
+}
+
+.dentro-do-formulario input,
+.dentro-do-formulario textarea,
+.dentro-do-formulario select {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #EBEBEB;
+}
+
+.formulario button {
+    color: white;
+    background-color: #2ABD05;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-top: 70px;
+}
+
+.formulario button:nth-child(6) {
+    margin-left: 120px;
+}
+
+#dentro {
+    width: 100%;
+}
+
+.dentro-do-formulario label {
+    font-size: 30px;
+}
+
+.dentro-do-formulario ion-icon {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #D9D9D9;
+}
+
+.dentro-do-formulario ion-icon:hover {
+    color: yellow;
+}
+
+/* CSS PARA SEPARAR O LADO DIREITO E ESQUERDO */
+
+/* Novos estilos para o menu deslizante */
+
+@media (max-width: 1200px){
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        background-color: #D9D9D9;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transform: translateX(-250px); 
+    }
+
+    .menu-toggle {
+        display: block;
+        color: black;
+    }
+
+    .sidebar.hidden {
+        transform: translateX(0); 
+    }
+}
+/* MODEL */
+
+.model{
+    background-color: #002133;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+#voltar{
+    text-decoration: none;
+    margin-right: 90%;
+    
+}
+.model img{
+    margin-top: 30px;
+    width: 150px;
+}
+.model p{
+    margin: 25px;
+}
+.acima-do-model p:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+.acima-do-model p:nth-child(3){
+    font-size: 20px;
+}
+.provedor{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.provedor ion-icon{
+    font-size: 30px;
+  border: 2px solid white;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+.bordas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.borda-do-model{
+    background-color: white;
+    padding: 3px;
+    width: 40%;
+    height: 1px;
+
+}
+
+.model-formulario{
+    text-align: start;
+    margin-left: 100px;
+}
+.model-formulario label{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.model-width input{
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #002133;
+    border: 2px solid white;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.model button{
+    margin: 20px;
+    font-size: 30px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.login{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+.login a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Todos os dispositivos */
+
+@media (max-width: 1200px){
+    .destino{
+        display: block;
+        
+    }
+
+    .imagem{
+       display: flex;
+       align-items: center;
+       gap: 30px;
+    }
+    
+    .imagem img{
+        height: 219px;
+        width: 289px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+
+   .botoes a{
+        margin-top: 10px;
+   }
+
+    .tudo{
+     display: block;
+    }
+    .embarcacao{
+     width: 60%;
+    }
+   .embarcacao p{
+     margin-left: 10px;
+     font-size: 20px;
+   }
+ 
+    .localizacao{
+     display: flex;
+     flex-wrap: wrap;
+     height: auto;
+    }
+ 
+    .tudo .a2{
+     font-size: 20px;
+    }
+ 
+    /* Perfil */
+
+    .separar{
+    flex-direction: column;
+    }
+ 
+    form button{
+        margin-bottom: 30px;
+    }
+ 
+    .todos-formulario{
+     display: block;
+    } 
+ }
+
+ @media (max-width: 1130px){
+    .redes img{
+        width: 70px;
+        margin-left: 15px;
+    }
+    
+    .redes ion-icon{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+ }
+
+ /* CELULAR */
+ @media (max-width: 950px){
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+ }
+
+ @media (max-width: 720px){
+    /* home */
+
+    .primeira-section h1{
+        text-align: justify;
+        font-size: 35px;
+    }
+
+    .p1{
+      text-align: justify;
+    }
+
+    .a2{
+        font-size: 20px;
+    }
+
+    .destino-melhores h2{
+        font-size: 38px;
+        text-align: center;
+        width: 100%;
+       margin-left: 0;
+    }
+
+    .melhores{
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .comentario{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .comentario h2{
+        font-size: 33px;
+        text-align: center;
+    }
+
+     .embarcacao{
+         font-size: 10px;
+         width: 72%;
+     }
+ 
+     .localizacao{
+         width: 72%;
+         border-radius: 0 0 10px 10px;
+     }
+ 
+     .destino-melhores h3{
+        margin-left: 0;
+        text-align: center;
+     }
+
+     .paises{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+     }
+
+     .imagem{
+       display: flex;
+       flex-direction: column;
+       margin-left: 30px;
+     }
+
+     .botoes{
+         margin-top: 30px;
+     }
+     .botoes a{
+        display: block;
+     }
+ 
+     .navbar{
+       display: block;
+     }
+     .block{
+         display: block;
+     }
+     header a img{
+         display: block;
+     }
+     
+     section h1{
+         font-size: 50px;
+         text-align: center;
+     }
+ 
+     .p1{
+         margin-bottom: 30px;
+         font-size: 25px;
+     }
+ 
+     .embarcacao{
+         margin:  0px 20px;
+     }
+     .localizacao{
+         display: block;
+         margin: 0 20px;
+         font-size: 10px;
+     }
+     .localizacao div{
+         display: block;
+     }
+     .localizacao button{
+         margin-top: 10px;
+         height: 70px;
+        
+     }
+     .destino{
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .paises{
+        margin-bottom: 30px;
+     }
+
+     footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .redes{
+        margin: 5px;
+     }
+
+     /* PERFIL celular */
+
+     .todos-formulario h2{
+        margin-left: 0;
+        font-size: 30px;
+        margin: 20px;
+        margin-top: 20px;
+     }
+     .todos-formulario{
+        margin-left: 0;
+     }
+
+     .formulario button{
+        margin-right: 30px;
+        width: 50%;
+     }
+
+    .formulario button:nth-child(4) , .formulario button:nth-child(5){
+        margin-left: 30px;
+    }
+
+    .tudo-praia{
+        display: block;
+        flex-direction: column;
+    }
+    .praia{
+        width: 80%;
+    }
+
+    .dentro-do-formulario:nth-child(2) textarea{
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .dentro-do-formulario:nth-child(7) textarea{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+/*  MODAL CELULAR  */
+
+@media (max-width: 540px){
+
+    .provedor{
+        display: block;
+    }
+
+    .provedor a{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .model button {
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .model-formulario{
+        margin-left: 20px;
+    }
+}
+
+/* LOGIN */
+
+.container-login {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+.cartao-login {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .titulo-login {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .grupo-formulario {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .grupo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .grupo-formulario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .botao-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-login:hover {
+    background-color: #0056b3;
+  }
+  
+  .mensagem-login {
+    margin-top: 15px;
+    color: red;
+    font-size: 14px;
+  }
+
+/* FIM login */
+/* ID */
+#localizacao{
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#genero{
+    margin-right: 20px;
+}
