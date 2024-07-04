@@ -34,21 +34,15 @@
 
                     <!-- BOST nav bar-->
                     <div class="container-fluid">
-                      <a class="navbar-brand home" href="index.html">Inicio</a>
+                      <a class="navbar-brand home" href="index.html"></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse block" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#servicos">Sobre nos</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#comentario">Principais Viagens</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#contato">Menor custo</a>
-                          </li>
                         </ul>
                       </div>
                     </div>
@@ -63,9 +57,10 @@
                     <div>
                         <p>Localização</p>
                         <select class="selecione" name="localizacao" id="local">
-                            <option value="">Local</option>
+                            <option value="">Local Atual</option>
                             <option value="Russia">Russia</option>
                             <option value="Amazonas">Amazonas</option>
+                            <option value="Brasil">Brasil</option>
 
                         </select> 
                     </div>
@@ -80,32 +75,28 @@
 
                         </select> 
                     </div>
-                     <div>
+                    <div>
                         <p>Ida</p>
                         <select class="selecione" name="localizacao" id="local">
-                           
-
-
-                                <option value="">Ida</option>
-                                <option value="Amanhã">Amanhã</option>
-                                <option value="Proxima semana">Proxima semana</option>
-                                <option value="Proximo mês">Proximo mês</option>
-                                
-
+                            <option value="">Local desejado</option>
+                            <option value="Amanhã">Russia</option>
+                            <option value="Estados-Unidos">Estados Unidos</option>
+                            <option value="França">França</option>
 
                         </select> 
-                     </div>
-                        <div>
-                            <p>Volta</p>
-                            <select class="selecione" name="localizacao" id="local">
-                                <option value="">Volta</option>
-                                <option value="Semanas">Semanas</option>
-                                <option value="Meses">Meses</option>
-                                <option value="Anos">Anos</option>
+                    </div>
+                    <div>
+                        <p>Embarque</p>
+                        <select class="selecione" name="localizacao" id="local">
+                            <option value="">Dia da viagem</option>
+                            <option value="Amanhã">Amanhã</option>
+                            <option value="Segunda-Feira">Segunda-Feira</option>
+                            <option value="Terça-Feira">Terça-Feira</option>
+                            <option value="Sabado">Sabado</option>
     
-                            </select> 
-                        </div>
-                   <button class="a2">Procurar pacotes</button>
+                        </select> 
+                    </div>
+                   <button class="a2" id="botao-perfil">Procurar pacotes</button>
                 </div>
         </div>
     </header>

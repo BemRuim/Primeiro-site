@@ -29,6 +29,7 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
    
 }
 .fundo-de-cima{  
@@ -411,7 +412,7 @@ footer{
 .sidebar {
     background-color: #D9D9D9;
     padding: 30px 60px;
-    height: 1000px;
+    height: 700px;
     z-index: 1000;
     transition: transform 0.5s;
     transform: translateX(0);
@@ -610,27 +611,7 @@ aside p {
 
 /* Novos estilos para o menu deslizante */
 
-@media (max-width: 1200px){
-    .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 250px;
-        background-color: #D9D9D9;
-        overflow-x: hidden;
-        padding-top: 60px;
-        transform: translateX(-250px); 
-    }
 
-    .menu-toggle {
-        display: block;
-        color: black;
-    }
-
-    .sidebar.hidden {
-        transform: translateX(0); 
-    }
-}
 /* MODEL */
 
 .model{
@@ -686,7 +667,8 @@ aside p {
 
 .model-formulario{
     text-align: start;
-    margin-left: 100px;
+    margin-left: 90px;
+
 }
 .model-formulario label{
     font-size: 20px;
@@ -727,8 +709,32 @@ aside p {
 }
 
 /* Todos os dispositivos */
-
 @media (max-width: 1200px){
+    #voltar{
+        display: block;
+        width: 80px;
+    }
+
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        background-color: #D9D9D9;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transform: translateX(-250px); 
+    }
+
+    .menu-toggle {
+        display: block;
+        color: black;
+    }
+
+    .sidebar.hidden {
+        transform: translateX(0); 
+    }
     .destino{
         display: block;
         
@@ -748,9 +754,14 @@ aside p {
     }
 
 
-   .botoes a{
-        margin-top: 10px;
-   }
+    .navbar{
+        display: block;
+        
+    }
+
+    .a1{
+        margin-bottom: 10px;
+    }
 
     .tudo{
      display: block;
@@ -775,18 +786,34 @@ aside p {
  
     /* Perfil */
 
+    #botao-perfil{
+        margin-top: 10px;
+    }
+
     .separar{
     flex-direction: column;
     }
  
     form button{
         margin-bottom: 30px;
+        display: block;
     }
  
     .todos-formulario{
      display: block;
     } 
- }
+
+   .todos-formulario{
+    width: 88%;
+   }
+
+}
+
+    /*MODAL */
+
+    #botao-do-model{
+       text-decoration: none;
+    }
 
  @media (max-width: 1130px){
     .redes img{
@@ -799,6 +826,9 @@ aside p {
         margin-left: 10px;
     }
  }
+
+
+
 
  /* CELULAR */
  @media (max-width: 950px){
@@ -853,12 +883,12 @@ aside p {
          font-size: 10px;
          width: 72%;
      }
- 
+
      .localizacao{
          width: 72%;
          border-radius: 0 0 10px 10px;
      }
- 
+
      .destino-melhores h3{
         margin-left: 0;
         text-align: center;
@@ -870,11 +900,20 @@ aside p {
         margin-left: 70px;
      }
 
+      .destino{
+        display: block;
+      }
+
      .imagem{
        display: flex;
-       flex-direction: column;
-       margin-left: 30px;
+       width: 90%;
      }
+
+    .imagem img{
+      width: 100%;
+      text-align: center;
+      margin-left: 15px;
+    }
 
      .botoes{
          margin-top: 30px;
@@ -882,7 +921,7 @@ aside p {
      .botoes a{
         display: block;
      }
- 
+
      .navbar{
        display: block;
      }
@@ -892,17 +931,17 @@ aside p {
      header a img{
          display: block;
      }
-     
+
      section h1{
          font-size: 50px;
          text-align: center;
      }
- 
+
      .p1{
          margin-bottom: 30px;
          font-size: 25px;
      }
- 
+
      .embarcacao{
          margin:  0px 20px;
      }
@@ -917,7 +956,7 @@ aside p {
      .localizacao button{
          margin-top: 10px;
          height: 70px;
-        
+
      }
      .destino{
          display: flex;
@@ -945,9 +984,14 @@ aside p {
         margin: 20px;
         margin-top: 20px;
      }
-     .todos-formulario{
-        margin-left: 0;
-     }
+     .todos-formulario {
+        margin: 20px 0 0 15px;
+        display: flex;
+    }
+
+  input{
+    width: 99%;
+  }
 
      .formulario button{
         margin-right: 30px;
@@ -979,7 +1023,7 @@ aside p {
 
 /*  MODAL CELULAR  */
 
-@media (max-width: 540px){
+@media (max-width: 720px){
 
     .provedor{
         display: block;
@@ -998,6 +1042,43 @@ aside p {
     .model-formulario{
         margin-left: 20px;
     }
+
+    .box{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    .box label{
+        width: 100%;
+    }
+
+    .box input{
+        height: 20px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 440px){
+    /* MODAL */
+
+   .box{
+    display: flex;
+    align-items: stretch;
+   }
+
+    .box input{
+        height: 30px;
+        margin:  5px;
+    }
+
+    /* PERFIL */
+
+    .todos-formulario{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 80%;
+       }
+
 }
 
 /* LOGIN */
